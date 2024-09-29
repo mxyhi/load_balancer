@@ -5,7 +5,7 @@ if [ -z "$THREADS_NUM" ]; then
 fi
 
 if [ -z "$RUST_LOG" ]; then
-    RUST_LOG="INFO"
+    export RUST_LOG="INFO"
 fi
 
 echo $'---
