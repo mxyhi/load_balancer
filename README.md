@@ -21,3 +21,9 @@
 # optional http2 key path
 # export H2_KEY_PATH=""
 ```
+
+## docker
+
+```sh
+docker pull mxyhi/load-balancer
+```

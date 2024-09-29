@@ -15,4 +15,3 @@ ENV PATH="/app/bin:${PATH}"
 ENTRYPOINT [ "/bin/bash", "-c" ]
 
 CMD ["/app/start.sh"]
-
